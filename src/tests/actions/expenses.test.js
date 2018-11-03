@@ -108,6 +108,7 @@ test('should fetch the expenses from firebase',(done) => {
     expect(actions[0]).toEqual({
       type: 'SET_EXPENSES',
       expenses
-    })
+    });
+    done();
   });
 });

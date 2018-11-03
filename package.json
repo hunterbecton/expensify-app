@@ -4,6 +4,9 @@
   "main": "index.js",
   "author": "Hunter Garrett",
   "license": "MIT",
+  "engines": {
+    "node": "8.12.0"
+  },
   "scripts": {
     "build:dev": "webpack",
     "build:prod": "webpack -p --env production",
